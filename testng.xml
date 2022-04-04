@@ -4,7 +4,7 @@
     <test verbose="2" preserve-order="true" name="C:/Users/darshb/Desktop/MAIN_ASSIGNMENT_REST">
        <classes>
 
-           <class name="Add_TaskOperation"></class>
+           <class name="TestcasesNegative"></class>
        </classes>
     </test>
 </suite>

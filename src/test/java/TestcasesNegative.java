@@ -40,7 +40,7 @@ public class TestcasesNegative extends Add_TaskOperation {
         baseURI = "https://api-nodejs-todolist.herokuapp.com";
         RequestSpecification request = RestAssured.given();
 
-        String loginDetails = data.login_details(invalid_login_path);
+        String [] loginDetails = base.login_details(invalid_login_path);
 
         request.header("Content-Type", "application/json");
         Response responseG = request.body(loginDetails).post("/user/login");

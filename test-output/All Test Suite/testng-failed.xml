@@ -3,12 +3,12 @@
 <suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="C:/Users/darshb/Desktop/MAIN_ASSIGNMENT_REST(failed)">
     <classes>
-      <class name="Add_TaskOperation">
+      <class name="TestcasesNegative">
         <methods>
           <include name="testPost"/>
           <include name="post_data"/>
         </methods>
-      </class> <!-- Add_TaskOperation -->
+      </class> <!-- TestcasesNegative -->
     </classes>
   </test> <!-- C:/Users/darshb/Desktop/MAIN_ASSIGNMENT_REST(failed) -->
 </suite> <!-- Failed suite [All Test Suite] -->

@@ -61,7 +61,7 @@ public class UserOperation {
 
         System.out.println(loginDetails);
 
-//        JSONObject loginDetails = base.login_details(login_path);
+//       JSONObject loginDetails = base.login_details(login_path);
         request.header("Content-Type", "application/json");
         Response responseG = request.body(loginDetails.toString()).post("/user/login");
         responseG.prettyPrint();
